@@ -12,10 +12,15 @@ Content
 It contains the following 5 fields:
 
 ids: The id of the tweet (eg. 4587)
+
 date: the date of the tweet (eg. Sat May 16 23:58:44 UTC 2009)
+
 flag: The query (eg. lyx). If there is no query, then this value is NO_QUERY.
-user: the user that tweeted (eg. bobthebuilder)
-text: the text of the tweet (eg. Lyx is cool)
+
+user: the user that tweeted (eg. bobthebuilder).
+
+text: the text of the tweet (eg. Lyx is cool).
+
 Following your analysis, you are then required to make a time series forecast of the sentiment of the entire dataset at
 1 week, 1 month and 3 months going forward. 
 
