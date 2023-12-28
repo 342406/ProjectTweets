@@ -1,5 +1,6 @@
 # ProjectTweets
 A time series forecast of the sentiment of the entire dataset at 1 week, 1 month and 3 months going forward with Dashboard
+
 ProjectTweets.csv
 
 Context
@@ -10,12 +11,15 @@ Content
 
 It contains the following 5 fields:
 
-ids: The id of the tweet (eg. 4587) 
+ids: The id of the tweet (eg. 4587)
 date: the date of the tweet (eg. Sat May 16 23:58:44 UTC 2009)
 flag: The query (eg. lyx). If there is no query, then this value is NO_QUERY.
 user: the user that tweeted (eg. bobthebuilder)
 text: the text of the tweet (eg. Lyx is cool)
-Following your analysis, you are then required to make a time series forecast of the sentiment of the entire dataset at 1 week, 1 month and 3 months going forward. This forecast must be displayed as a dynamic dashboard.    
+Following your analysis, you are then required to make a time series forecast of the sentiment of the entire dataset at
+1 week, 1 month and 3 months going forward. 
+
+This forecast must be displayed as a dynamic dashboard.    
 
 Your project must incorporate the following elements:
 
@@ -27,7 +31,7 @@ Your project must incorporate the following elements:
 
 ●           Store the data and then follow-up analysis on the output data. It can be extracted from the NoSQL database into another format, using an appropriate tool, if necessary (e.g. extract to CSV to import into R/ Python etc.).
 
-●           Devise and implement a test strategy in order to perform a comparative analysis of the capabilities of any two databases (MySQL, MongoDB, Cassandra, HBase and CouchDB) in terms of the performance. You should record a set of appropriate metrics and perform a quantitative analysis for comparison purposes between the two chosen database systems.
+●           Devise and implement a test strategy in order to perform a comparative analysis of the capabilities of any two databases (MySQL, MongoDB, Cassandra, HBase and CouchDB) in terms of the performance. You should record a set of appropriate metrics and perform a quantitative analysis for             comparison purposes between the two chosen database systems.
 
 ●           Provide evidence and justification of your choice of sentiment extraction.
 
